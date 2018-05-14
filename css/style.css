@@ -51,4 +51,22 @@ table {
 
 /*---Style commun---*/
 
-/*Import des polices*/
+
+.PageInterne {
+	width: 96%;
+	height: 2500px;
+	margin: 2%;
+	border: solid black 2px;
+}
+
+.EnTete {
+	width: 100%;
+	border-bottom: solid black 1px;
+	height: auto;
+}
+.EnTete h1 {
+	margin: 3% 0 3% 0;
+	font-weight: bold;
+	font-size: 36px;
+	text-align: center;
+}
