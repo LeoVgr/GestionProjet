@@ -129,3 +129,134 @@ table {
 .ListeMetier li {
 	margin-bottom: 1.5%;
 }
+
+/*---Page Liste des salariés---*/
+.ListeSalaries {
+	border: solid black 1px;
+	border-radius: 10px;
+	width: 40%;
+	margin: 4% 30%;
+	text-align: center;
+}
+
+.ListeSalaries h3{
+	padding: 2%;
+}
+
+.ListeSalaries li {
+	margin-bottom: 1.5%;
+}
+
+/*---Page ChoixSecretaire---*/
+.ChoixSecretaire {
+	border: solid black 1px;
+	border-radius: 10px;
+	width: 40%;
+	margin: 4% 30%;
+	text-align: center;
+}
+
+.ChoixSecretaire h3{
+	padding: 2%;
+}
+
+.ChoixSecretaire li {
+	margin-bottom: 1.5%;
+}
+
+/*---Page SecretaireFeuilleDePaie---*/
+.EnTete h2 {
+	margin-bottom: 0;
+}
+
+.EnTete h4 {
+	margin: 1% 0 1% 0;
+	font-size: 20px;
+	text-align: center;
+}
+
+.RealisationFeuilleDePaie {
+	border: solid black 1px;
+	border-radius: 10px;
+	width: 70%;
+	margin: 4% 15%;
+	text-align: center;
+}
+
+.NomSalarie {
+	margin: 1.5% 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.PayeBoutonValider {
+	margin-bottom: 1.5%;
+}
+
+/*---Page SecretaireFeuilleDePaieSalarie---*/
+.FeuilleDePaieSalarie {
+	border: solid black 1px;
+	border-radius: 10px;
+	width: 85%;
+	margin: 4% 7.5%;
+	text-align: center;
+}
+
+.FeuilleDePaieSalarie p {
+	text-align: center;
+}
+#idSal, #remSal {
+	margin-top: 1.5%;
+	font-weight: bold;
+}
+
+.identitéSalarie {
+	width: 90%;
+	margin: 1% 5%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+#nom,#prenom,#matricule,#adresse{
+	padding: 2px 5px;
+	border: solid black 1px;
+	border-radius: 5px;
+	margin-left:  4px;
+}
+.identitéSalariePartie1, .identitéSalariePartie2 {
+	display : flex;
+	margin: 1%;
+	margin-left: 20%;
+}
+.identitéSalariePartie1 p:nth-child(3) {
+	margin-left: 26.5%;
+}
+.identitéSalariePartie2 p:nth-child(3) {
+	margin-left: 20%;
+}
+
+.remunerationSalarie {
+	width: 90%;
+	margin: 1% 5%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+#nbHeure,#tauxHoraire,#prime,#total{
+	padding: 2px 5px;
+	border: solid black 1px;
+	border-radius: 5px;
+	margin-left:  4px;
+}
+.remunerationSalariePartie1, .remunerationSalariePartie2 {
+	display : flex;
+	margin: 1%;
+	margin-left: 20%;
+}
+.remunerationSalariePartie1 p:nth-child(3) {
+	margin-left: 18.4%;
+}
+.remunerationSalariePartie2 p:nth-child(3) {
+	margin-left: 20%;
+}
