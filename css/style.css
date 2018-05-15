@@ -88,3 +88,39 @@ table {
 .nav li:nth-child(6) {
 	border-right: solid black 1px;
 }
+
+
+/*---Page de connexion du Personnel---*/
+.ConnexionPersonnel {
+	border: solid black 1px;
+	border-radius: 10px;
+	width: 40%;
+	margin: 4% 30%;
+	text-align: center;
+}
+
+.ConnexionPersonnel h2{
+	padding: 2%;
+}
+.ConnexionPersonnel .bouton{
+	margin: 2%;
+}
+
+
+
+/*---Page Liste de métier---*/
+.ListeMetier {
+	border: solid black 1px;
+	border-radius: 10px;
+	width: 40%;
+	margin: 4% 30%;
+	text-align: center;
+}
+
+.ListeMetier h2{
+	padding: 2%;
+}
+
+.ListeMetier li {
+	margin-bottom: 1%; 
+}
