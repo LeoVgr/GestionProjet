@@ -104,11 +104,15 @@ table {
 	text-align: center;
 }
 
+.ConnexionPersonnel input {
+	margin: 1%;
+}
+
 .ConnexionPersonnel h2{
 	padding: 2%;
 }
 .ConnexionPersonnel .bouton{
-	margin: 2%;
+	margin: 0 0 2% 0;
 }
 
 
@@ -147,6 +151,10 @@ table {
 	margin-bottom: 1.5%;
 }
 
+.AjouterSalarie {
+	margin: 2% 0 4% 0;
+}
+
 /*---Page ChoixSecretaire---*/
 .ChoixSecretaire {
 	border: solid black 1px;
@@ -163,6 +171,8 @@ table {
 .ChoixSecretaire li {
 	margin-bottom: 1.5%;
 }
+
+
 
 /*---Page SecretaireFeuilleDePaie---*/
 .EnTete h2 {
@@ -259,4 +269,16 @@ table {
 }
 .remunerationSalariePartie2 p:nth-child(3) {
 	margin-left: 20%;
+}
+
+
+/*---Page AjoutSalarieListe---*/
+.NomSalariePartie1, .NomSalariePartie2, .NomSalariePartie3, .NomSalariePartie4 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.NomSalarie p {
+	margin: 5px;
 }
