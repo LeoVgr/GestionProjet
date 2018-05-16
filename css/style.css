@@ -204,6 +204,12 @@ table {
 	margin-bottom: 1.5%;
 }
 
+.NomSalarie a {
+	margin-top: 5px;
+}
+
+
+
 /*---Page SecretaireFeuilleDePaieSalarie---*/
 .FeuilleDePaieSalarie {
 	border: solid black 1px;
