@@ -180,7 +180,7 @@ table {
 	padding: 1%;
 }
 .CritereRecherche p{
-  margin: 1%;
+	margin: 1%;
 }
 
 .CritereRechercheSelection {
@@ -197,8 +197,8 @@ table {
 
 
 
-/*---Page ChoixSecretaire---*/
-.ChoixSecretaire {
+/*---Page Choix---*/
+.Choix {
 	border: solid black 1px;
 	border-radius: 10px;
 	width: 40%;
@@ -206,11 +206,11 @@ table {
 	text-align: center;
 }
 
-.ChoixSecretaire h3{
+.Choix h3{
 	padding: 2%;
 }
 
-.ChoixSecretaire li {
+.Choix li {
 	margin-bottom: 1.5%;
 }
 
@@ -419,4 +419,135 @@ table {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+}
+
+
+
+
+
+
+
+
+/*---Page RealisationBonDeIntervention---*/
+.RealisationBonDeIntervention {
+	display: flex;
+	justify-content: space-between;
+
+	border: solid black 1px;
+	border-radius: 10px;
+	width: 95%;
+	margin: 4% 2.5%;
+}
+
+.InterventionPartieGauche{
+	border: solid black 1px;
+	border-radius: 10px;
+	width: 45%;
+	margin: 4% 0.5% 4% 2.5%;
+}
+
+.InterventionPartieDroite{
+	border: solid black 1px;
+	border-radius: 10px;
+	width: 45%;
+	margin: 4% 2.5% 4% 0.5%;
+}
+
+#ContratActuel {
+	font-weight: bold;
+	justify-content: center;
+	margin: 2%;
+}
+#Societe,  #Correpondant, #Poste, #IntPoss, #IntRest {
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+.PreviewContrat p{
+	margin: 2% 4%;
+}
+.InterventionPartieGauche p {
+	margin: 1.5%;
+}
+
+.PreviewContrat p:nth-child(1) {
+	text-align: center;
+	margin-bottom: 3%;
+	font-size: 22px;
+}
+
+.InterventionBoutonContrat{
+	margin-left: 400px;
+}
+
+.InterventionBoutonEnregistrerDemandeIntervention {
+	margin : 6% 36.5% 3%;
+	text-align: center;
+}
+
+.comment {
+	vertical-align: top;
+}
+
+
+
+
+
+
+
+/*---Page ListeIntervention---*/
+.ListeIntervention {
+	border: solid black 1px;
+	border-radius: 10px;
+	width: 40%;
+	margin: 4% 30%;
+	text-align: center;
+}
+
+.ListeIntervention h3{
+	padding: 2%;
+	font-weight: bold;
+}
+
+.AjouterIntervention {
+	margin: 2% 0 4% 0;
+}
+.CritereRecherche {
+	text-align: left;
+
+	border: solid black 1px;
+	border-radius: 5px;
+
+	width: 85%;
+	margin: 1% 7.5%;
+
+	padding: 1%;
+}
+.CritereRecherche p{
+	margin: 1%;
+}
+
+.CritereRechercheSelection {
+	display: flex;
+	justify-content: space-around;
+}
+
+.NomIntervention {
+	display: flex;
+}
+
+.interventionListeGauche {
+	width: 70%;
+}
+.interventionListeDroite {
+	width: 20%;
+}
+.interventionListeGauche li {
+	margin-bottom: 2%;
+}
+.interventionListeDroite li {
+	margin-bottom: 7%;
+}
+.interventionListeDroite li:nth-child(1) {
+	margin-top: 1px;
 }

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>ParcAnimalier</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <link rel = "stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="PageInterne">
+
+    <header class="EnTete">
+      <h2> Service Technique </h2>
+      <h4>Demande d'intervention</h4>
+    </header>
+
+    <nav>
+      <ul class="nav">
+        <li><a href="Index.html">Accueil</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Tarifs</a></li>
+        <li><a href="ListeMetier.html">Personnel</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="RealisationBonDeIntervention">
+      <div class="InterventionPartieGauche">
+        <form>
+          <p>
+            <label for="nom">Nom de l'intervention :</label>
+            <input type="text" name="nom" placeholder="Ex : Réparation du toboggan" size="40" maxlength="50" />
+          </p>
+
+          <p>
+            <label for="nom">Date de l'intervention :</label>
+            <input type="date" name="dateIntervention" value="2018-05-18">
+          </p>
+
+          <p>
+            <label for="nom">Heure de l'intervention :</label>
+            <input type="time" name="heureIntervention" value="15:30">
+          </p>
+
+
+          <p>
+            <label for="ref">Référence de la structure :</label>
+            <input type="text" name="ref" placeholder="Ex : TOB56LG24" size="20" maxlength="50" />
+          </p>
+
+          <p>
+            <label for="ref">Etat actuel de la machine :</label>
+            <input type="text" name="ref" placeholder="Ex : En panne" size="30" maxlength="50" />
+          </p>
+
+          <p>Sans contrat <INPUT type= "radio" name="contrat" value="non"></p>
+            <p>Sous contrat<INPUT  type= "radio" name="contrat" value="oui" checked></p>
+              <p>
+                <label class="comment" for="Commentaire">Commentaire (optionnel) :</label>
+                <textarea name="Commentaire" id="Commentaire"></textarea>
+              </p>
+            </form>
+          </div>
+
+          <div class="InterventionPartieDroite">
+            <div class="PreviewContrat">
+              <p><span id="ContratActuel"> Contrat actuel </span></p>
+
+              <p> <span id="Societe"> Société : </span>      ToboSpeed </p>
+
+              <p> <span id="Correpondant">Correpondant : </span>      Jean laglisse </p>
+              <p> <span id="Poste">Poste : </span>      Commerciale </p>
+
+              <p> <span id="IntPoss">Nombre d'interventions possibles : </span>      7 </p>
+              <p> <span id="IntRest">Nombre d'interventions restantes : </span>      4 </p>
+
+              <a href="#"><input class="InterventionBoutonContrat" type="button" value="Voir le contrat"></a>
+            </div>
+
+            <a href="PageServiceTechnique.html"><input class="InterventionBoutonEnregistrerDemandeIntervention" type="button" value="Enregistrer l'intervention"></a>
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </body>
+    </html>
