@@ -117,6 +117,10 @@ table {
 
 
 
+
+
+
+
 /*---Page Liste de métier---*/
 .ListeMetier {
 	border: solid black 1px;
@@ -133,6 +137,15 @@ table {
 .ListeMetier li {
 	margin-bottom: 1.5%;
 }
+
+
+
+
+
+
+
+
+
 
 /*---Page Liste des salariés---*/
 .ListeSalaries {
@@ -174,6 +187,11 @@ table {
 
 
 
+
+
+
+
+
 /*---Page SecretaireFeuilleDePaie---*/
 .EnTete h2 {
 	margin-bottom: 0;
@@ -207,6 +225,12 @@ table {
 .NomSalarie a {
 	margin-top: 5px;
 }
+
+
+
+
+
+
 
 
 
@@ -278,8 +302,14 @@ table {
 }
 
 
+
+
+
+
+
+
 /*---Page AjoutSalarieListe---*/
-.NomSalariePartie1, .NomSalariePartie2, .NomSalariePartie3, .NomSalariePartie4 {
+.NomSalariePartie1, .NomSalariePartie2, .NomSalariePartie3, .NomSalariePartie4, .NomSalariePartie5 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -287,4 +317,71 @@ table {
 
 .NomSalarie p {
 	margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+/*---Page FicheSalarieDetail---*/
+.FicheDetailleSalarie {
+	border: solid black 1px;
+	border-radius: 10px;
+	width: 85%;
+	margin: 4% 7.5%;
+
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.FicheDetailleSalarie span {
+	margin-right: 3%;
+}
+
+.FeuilleDePaieSalarie p {
+	text-align: center;
+}
+
+
+.NomSalarieDetailPartie1, .NomSalarieDetailPartie2, .NomSalarieDetailPartie3, .NomSalarieDetailPartie4, .NomSalarieDetailPartie5 {
+	display : flex;
+	flex-direction: row;
+
+	margin: 2%;
+	margin-left: 20%;
+}
+
+.FicheSalarieBoutonRetour {
+	margin: 2%;
+}
+
+#prenom,#nom,#sexe,#date, #lieu, #adresse, #ville, #cp, #pays, #tel, #email, #matricule {
+	padding: 2px 5px;
+	border: solid black 1px;
+	border-radius: 5px;
+	margin-left:  4px;
+}
+#prenom, #nom {
+	margin-right: 120px;
+}
+#date {
+	margin-right: 26px;
+}
+#adresse {
+	margin-right: 56px;
+}
+#cp {
+	margin-right: 148px;
+}
+#tel {
+	margin-right: 93px;
+}
+#lieu {
+	margin-right: 114px;
 }
