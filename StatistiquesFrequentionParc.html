@@ -11,10 +11,12 @@
 </head>
 
 <body>
+
   <div class="PageInterne">
 
     <header class="EnTete">
-      <h2> Espace réservé au Directeur </h2>
+      <h2> Directeur </h2>
+      <h4>Toutes les statistiques</h4>
     </header>
 
     <nav>
@@ -28,20 +30,28 @@
       </ul>
     </nav>
 
-    <div class="ConnexionPersonnel">
-      <h2>Connectez-vous à votre compte</h2>
 
-      <form action="PageDirecteur.html">
-        Identifiant:<br>
-        <input type="text" name="Identifiant" value="LMP564JK">
-        <br>
-        Mot de passe:<br>
-        <input type="text" name="mdp" value="********">
-        <br><br>
-        <input class="bouton" type="submit" value="Valider">
-      </form>
-    </div>
+    <form>
+      <div class="CritereRecherche">
+        <p> Critère de recherche :</p>
 
+        <div class="CritereRechercheSelection">
+          <p>
+            <label for="nom">Global :</label>
+            <input type="checkbox" name="checkbox1" value="checkbox" checked>
+          </p>
+
+          <p>
+            <label for="nom">Restauration :</label>
+            <input type="checkbox" name="checkbox2" value="checkbox">
+          </p>
+        </div>
+
+      </div>
+    </form>
   </div>
+
+
+</div>
 </body>
 </html>
