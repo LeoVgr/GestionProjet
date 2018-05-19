@@ -15,8 +15,8 @@
   <div class="PageInterne">
 
     <header class="EnTete">
-      <h2> Secrétaire </h2>
-      <h4>Gestion des commandes</h4>
+      <h2> Directeur </h2>
+      <h4>Statistiques : Chiffre d'affaires</h4>
     </header>
 
     <nav>
@@ -30,24 +30,63 @@
       </ul>
     </nav>
 
-    <div class="RealisationFeuilleDePaie">
-      <div class="NomSalarie">
-        <form>
-          <p>
-            <label for="nom">Saisir le nom et prenom du salarié :</label>
-            <input type="text" name="nom" placeholder="Ex : Edmee Chabot" size="30" maxlength="50" />
-          </p>
-        </form>
+    <form>
+      <div class="CritrereCA">
+        <div class="CritereRechercheCA">
+          <p> Critère de recherche :</p>
 
-        <p> ou </p>
+          <div class="CritereRechercheSelectionCA">
+            <p>
+              <label for="nom">Global :</label>
+              <input type="checkbox" name="checkbox1" value="checkbox" checked>
+            </p>
 
-        <a href="ListeSalaries.html"><input type="button" value="Sélectionner un salarié dans la liste">
+            <p>
+              <label for="nom">Restauration :</label>
+              <input type="checkbox" name="checkbox2" value="checkbox">
+            </p>
+          </div>
+
+        </div>
+
+        <div class="CritereAffichageCA">
+          <p> Critère d'affichage du chiffre d'affaires :</p>
+
+          <div class="CritereAffichageSelectionCA">
+            <div class="AffCA1">
+              <p>
+                <label for="nom">Ajourd'hui :</label>
+                <input type="checkbox" name="checkbox1" value="checkbox" checked>
+              </p>
+
+              <p>
+                <label for="nom">Du :</label>
+                <input type="date" name="dateIntervention" value="2018-05-12">
+                <input type="checkbox" name="checkbox2" value="checkbox">
+              </p>
+            </div>
+
+            <div class="AffCA2">
+              <p>
+                <label for="nom">De l'année en cours :</label>
+                <input type="checkbox" name="checkbox1" value="checkbox">
+              </p>
+
+              <p>
+                <label for="nom">De l'année :</label>
+                <input type="text" name="nom" placeholder="Ex : 2017" size="12" maxlength="6" />
+                <input type="checkbox" name="checkbox1" value="checkbox" >
+              </p>
+            </div>
+          </div>
+
+        </div>
       </div>
+    </form>
 
-      <a href="SecretaireFeuilleDePaieSalarie.html"><input class="PayeBoutonValider" type="button" value="Valider">
-
+    <div class="CAimg">
+      <img src="img/CAajd.png" alt=""/>
     </div>
-
 
   </div>
 </body>

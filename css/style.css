@@ -551,3 +551,67 @@ table {
 .interventionListeDroite li:nth-child(1) {
 	margin-top: 1px;
 }
+
+
+
+
+
+
+
+
+/*---Page StatistiquesChiffreAffaires---*/
+.CritereRechercheCA {
+	text-align: left;
+
+	border: solid black 1px;
+	border-radius: 5px;
+
+	width: 90%;
+	margin: 1% 5%;
+
+	padding: 1%;
+}
+.CritereRechercheCA p{
+	margin: 1%;
+}
+
+.CritereRechercheSelectionCA {
+	display: flex;
+	justify-content: space-around;
+}
+
+.CritereAffichageCA {
+	text-align: left;
+
+	border: solid black 1px;
+	border-radius: 5px;
+
+	width: 90%;
+	margin: 1% 5%;
+
+	padding: 1%;
+}
+.CritereAffichageCA p{
+	margin: 1%;
+}
+
+.CritereRechercheSelectionCA {
+	display: flex;
+	justify-content: space-around;
+}
+
+.CritrereCA {
+	display : flex;
+	flex-direction: column;
+}
+
+.AffCA1, .AffCA2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.CAimg {
+	display: flex;
+	justify-content: center;
+	margin: 3%;
+}
