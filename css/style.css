@@ -53,7 +53,8 @@ table {
 
 .PageInterne {
 	width: 96%;
-	height: 2500px;
+	min-height: 680px;
+	overflow: auto;
 	margin: 2%;
 	border: solid black 2px;
 	border-radius: 10px;
@@ -614,4 +615,142 @@ table {
 	display: flex;
 	justify-content: center;
 	margin: 3%;
+}
+
+
+
+
+
+
+
+
+/*---Page Statistiques Frequentation du parc---*/
+.CritereRechercheFreqParc {
+	text-align: left;
+
+	border: solid black 1px;
+	border-radius: 5px;
+
+	width: 90%;
+	margin: 1% 5%;
+
+	padding: 1%;
+}
+.CritereRechercheFreqParc p{
+	margin: 1%;
+}
+
+.CritereRechercheSelectionFreqParc {
+	display: flex;
+	justify-content: space-around;
+}
+
+.CritereAffichageFreqParc {
+	text-align: left;
+
+	border: solid black 1px;
+	border-radius: 5px;
+
+	width: 90%;
+	margin: 1% 5%;
+
+	padding: 1%;
+}
+.CritereAffichageFreqParc p{
+	margin: 1%;
+}
+
+.CritereAffichageSelectionFreqParc {
+	display: flex;
+	justify-content: space-around;
+}
+
+.CritrereFreqParc {
+	display : flex;
+	flex-direction: column;
+}
+
+
+.FreqParcimg {
+	display: flex;
+	justify-content: center;
+	margin: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---Page StatistiquesMaintenance---*/
+.CritereRechercheIntervention {
+	text-align: left;
+
+	border: solid black 1px;
+	border-radius: 5px;
+
+	width: 90%;
+	margin: 1% 5%;
+
+	padding: 1%;
+}
+.CritereRechercheIntervention p{
+	margin: 1%;
+}
+
+.CritereRechercheSelectionIntervention {
+	display: flex;
+	justify-content: space-around;
+}
+
+.CritereAffichageIntervention {
+	text-align: left;
+
+	border: solid black 1px;
+	border-radius: 5px;
+
+	width: 90%;
+	margin: 1% 5%;
+
+	padding: 1%;
+}
+.CritereAffichageIntervention p{
+	margin: 1%;
+}
+
+.CritereAffichageSelectionIntervention {
+	display: flex;
+	justify-content: space-around;
+}
+
+.CritrereIntervention {
+	display : flex;
+	flex-direction: column;
+}
+
+.nbIntervention {
+	width: 90%;
+	margin : 1% 5%;
+}
+
+.nbIntervention p {
+	margin: 1%;
+}
+
+.nbIntervention #nbIntervention {
+	font-weight: bold;
+	margin: 1%;
+}
+
+.nbIntervention p:nth-child(1) {
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin : 3%;
 }

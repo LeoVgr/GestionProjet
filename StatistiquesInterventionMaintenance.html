@@ -16,7 +16,7 @@
 
     <header class="EnTete">
       <h2> Directeur </h2>
-      <h4>Statistiques : Fréquentation du parc</h4>
+      <h4>Statistiques : Intervention de maintenance</h4>
     </header>
 
     <nav>
@@ -31,49 +31,34 @@
     </nav>
 
     <form>
-      <div class="CritrereFreqParc">
-        <div class="CritereRechercheFreqParc">
+      <div class="CritrereIntervention">
+        <div class="CritereRechercheIntervention">
           <p> Critère de recherche :</p>
 
-          <div class="CritereRechercheSelectionFreqParc">
+          <div class="CritereRechercheSelectionIntervention">
             <p>
               <label for="nom">Global :</label>
               <input type="checkbox" name="checkbox1" value="checkbox" checked>
             </p>
 
             <p>
-              <label for="nom">Famille :</label>
+              <label for="nom">Intervention interne :</label>
               <input type="checkbox" name="checkbox2" value="checkbox">
             </p>
 
             <p>
-              <label for="nom">Homme :</label>
+              <label for="nom">Intervention externe :</label>
               <input type="checkbox" name="checkbox3" value="checkbox">
-            </p>
-
-            <p>
-              <label for="nom">Femme :</label>
-              <input type="checkbox" name="checkbox4" value="checkbox">
-            </p>
-
-            <p>
-              <label for="nom">Enfant (-18 ans) :</label>
-              <input type="checkbox" name="checkbox5" value="checkbox">
             </p>
 
           </div>
 
         </div>
 
-        <div class="CritereAffichageFreqParc">
-          <p> Critère d'affichage de la fréquentation du parc :</p>
+        <div class="CritereAffichageIntervention">
+          <p> Critère d'affichage des interventions de maintenance :</p>
 
-          <div class="CritereAffichageSelectionFreqParc">
-            <p>
-              <label for="nom">Instantané :</label>
-              <input type="checkbox" name="checkbox1" value="checkbox" >
-            </p>
-
+          <div class="CritereAffichageSelectionIntervention">
             <p>
               <label for="nom">Du jour :</label>
               <input type="checkbox" name="checkbox1" value="checkbox" checked >
@@ -89,18 +74,17 @@
               <input type="checkbox" name="checkbox1" value="checkbox" >
             </p>
 
-            <p>
-              <label for="nom">Pic :</label>
-              <input type="checkbox" name="checkbox1" value="checkbox" >
-            </p>
           </div>
         </div>
       </div>
     </form>
 
-    <div class="FreqParcimg">
-      <img src="img/FreqParcAjd.png" alt=""/>
+    <div class="nbIntervention">
+      <p> Ajourd'hui </p>
+      <p> <span id="nbIntervention"> Nombre d'intervention intervention interne : </span> 1</p>
+      <p> <span id="nbIntervention">Nombre d'intervention intervention externe :</span> 0</p>
     </div>
+
 
   </div>
 </body>
