@@ -754,3 +754,278 @@ table {
 	font-weight: bold;
 	margin : 3%;
 }
+
+
+
+
+
+
+
+/*---Page ListeFournisseur---*/
+.BoutonAjouterFournisseur {
+	margin: 2%;
+}
+
+.ListeFournisseur {
+	border: solid black 1px;
+	border-radius: 10px;
+	width: 70%;
+	margin: 4% 15%;
+	text-align: center;
+}
+
+.ListeFournisseur h3{
+	padding: 2%;
+	font-weight: bold;
+}
+
+.ListeFournisseur li {
+	margin-bottom: 1.5%;
+}
+
+.FournisseurListeDeroulante p {
+	display: flex;
+}
+
+.CritereRechercheSelection p:nth-child(2) {
+	display: flex;
+}
+
+.CritereRechercheSelection p:nth-child(2) label {
+	margin-top: 1px;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---Réalisation commande fournisseur---*/
+.RealisationCommandeFournisseur {
+	width: 90%;
+
+	margin : 4% 5%;
+
+	border: solid black 1px;
+	border-radius: 10px;
+
+	display: flex;
+}
+
+.CommmandePartieGauche {
+	width: 40%;
+
+	margin : 4% 0% 4% 5%;
+
+	padding: 2%;
+
+	border: solid black 1px;
+	border-radius: 10px;
+}
+
+.CommandePartieDroite {
+	width: 40%;
+
+	margin : 4% 5% 4% 5%;
+
+	padding: 2%;
+
+	border: solid black 1px;
+	border-radius: 10px;
+}
+
+.CommmandePartieGauche p {
+	margin-bottom: 3%;
+	display: flex;
+}
+
+.CommmandePartieGauche p:nth-child(1) {
+	margin-bottom: 6%;
+	display: flex;
+}
+
+#CommandeQuantiteSouhaite {
+	display: flex;
+}
+
+#CommandeQuantiteSouhaite select {
+	margin-left: 15px;
+	max-height: 22px;
+}
+
+.CommmandePartieGauche label {
+	margin-right: 5px;
+}
+
+.CommandeBoutonValiderProduit {
+	margin: 6% 35%;
+}
+
+.ListeProduitValide {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.ProduitValide p {
+	text-align: center;
+	margin: 4%;
+	margin-top: 0;
+}
+
+.ProduitValide li {
+	margin: 1.5%;
+	text-align: center;
+}
+
+.CommandeBoutonEnregistrement {
+	margin: 9% 27%;
+}
+
+.CommandeBoutonListeFournisseur {
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+/*---Page InformationProduitCommande---*/
+.InformationProduit {
+	width: 70%;
+	margin: 5% 15%;
+
+  border: solid black 1px;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.InformationProduit p {
+	margin: 3%;
+	margin-top: 0;
+}
+
+#TitreInformationProduit h6 {
+	margin: 2%;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+#TextInformationProduit {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+/*---Page FicheCommandeDetail---*/
+.ListeFicheCommandeDetail {
+	width: 60%;
+	margin: 4% 20%;
+
+	border: solid black 1px;
+	border-radius: 10px;
+}
+
+.ListeFicheCommandeDetail p {
+	text-align: center;
+	margin: 2%;
+}
+
+.ListeFicheCommandeDetail li {
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---Page AjoutFournisseurListe---*/
+.AddFournPart1, .AddFournPart2, .AddFournPart3 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.AjoutFournisseurListe {
+	border: solid black 1px;
+	border-radius: 10px;
+	width: 70%;
+	margin: 4% 15%;
+	text-align: center;
+}
+
+.NomFournisseur {
+	margin: 1.5% 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.AddFournPart2 {
+	margin : 2% 0;
+}
+
+.NomFournisseur input {
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---Page RedirectionBanque---*/
+.Redirection {
+	display: flex;
+	flex-direction: column;
+
+	justify-content: space-around;
+
+	width: 70%;
+	margin: 4% 15%;
+
+	border: solid black 1px;
+	border-radius: 10px;
+}
+
+.Redirection h6 {
+	font-weight: bold;
+	text-align: center;
+	margin: 2%;
+}
+.Redirection progress {
+	margin: 2% 41%;
+}
