@@ -1061,13 +1061,13 @@ table {
 }
 
 .contact label {
-	margin: 0% 4% 0% 2%;
+	margin-left: 20%;
 }
 
 .contact select {
-	margin: 0% 2% 2% 2%;
+	margin: 1% 30% 2% 25%;
 }
 
 .contact input {
-	margin: 0% 2% 2% 2%;
+	margin: 1% 25% 2% 25%;
 }
