@@ -1029,3 +1029,45 @@ table {
 .Redirection progress {
 	margin: 2% 41%;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*---Page Contact---*/
+.contact {
+	display: flex;
+	flex-direction: column;
+
+	justify-content: space-around;
+
+	width: 80%;
+	margin: 4% 10%;
+
+	border: solid black 1px;
+	border-radius: 10px;
+}
+
+#textHaut p {
+	text-align: center;
+	font-size: 20px;
+	margin: 2%;
+}
+
+.contact label {
+	margin-left: 20%;
+}
+
+.contact select {
+	margin: 1% 30% 2% 25%;
+}
+
+.contact input {
+	margin: 1% 25% 2% 25%;
+}

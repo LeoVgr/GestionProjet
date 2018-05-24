@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>ParcAnimalier</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <link rel = "stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <div class="PageInterne">
+
+    <header class="EnTete">
+      <h2> Espace réservé aux soigneurs </h2>
+    </header>
+
+    <nav>
+      <ul class="nav">
+        <li><a href="Index.html">Accueil</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Tarifs</a></li>
+        <li><a href="ListeMetier.html">Personnel</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+      <div class="contact">
+
+        <div id="textHaut">
+            <p>Pour toutes informations sur nos offres, question sur le parc, sur les attractions. N'hésitez pas à nous contacter !</p>
+
+            <p>Pour nous contacter et avoir une réponse personnalisée, veuillez utiliser le formulaire ci-dessous.</p>
+        </div>
+
+        <p>
+            <label for="pays">Vous êtes : </label><br />
+              <select id="métier">
+                  <option value="sélectionner"> -Sélectionner- </option>
+                  <option value="particulier">Un particulier</option>
+                  <option value="professionnel">Un professionnel</option>
+                  <option value="association">Une association</option>
+                  <option value="collectivité">Une collectivité</option>
+              </select>
+        </p>
+
+        <p>
+            <label for="pays">Vous nous contacter pour : </label><br />
+              <select id="contacter">
+                  <option value="sélectionner">-Sélectionner- </option>
+                  <option value="tarif">Demander une documentation ou des tarifs</option>
+                  <option value="devis">Demander un devis</option>
+                  <option value="commanderInter">Des difficultés à commander sur internet</option>
+                  <option value="visiteParc">Des difficultés de votre visite au Parc</option>
+                  <option value="perteObjet">Signaler la perte d'un objet</option>
+                  <option value="satisfaction">Manifester votre satisfaction</option>
+                  <option value="autres">Autres</option>
+              </select>
+        </p>
+
+        <label>Votre nom :</label>
+        <input type="text" name="nom" placeholder="Ex : James"/>
+
+        <label>Votre prénom :</label>
+        <input type="text" name="prenom" placeholder="Ex : Lebron"/>
+
+        <label>Votre e-mail :</label>
+        <input type="text" name="e-mail" placeholder="Ex : lebron.james_23"/>
+
+        <label>Votre message :</label>
+        <input type="text" name="message" placeholder="Ex : Est-ce que les bars et les restaurants proposent de l'alcool ?"/>
+
+    </div>
+
+  </div>
+</body>
+</html>
