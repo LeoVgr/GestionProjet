@@ -1,0 +1,147 @@
+/*---Page demandeConnexionAvantagesClients---*/
+.demandeConnexionAvantagesClients {
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+
+  text-align: center;
+}
+
+.demandeConnexionAvantagesClients p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.demandeConnexionBoutonNon, .demandeConnexionBoutonSeConnecter {
+  width: 200px;
+  height: 300px;
+
+  margin: 2.5%;
+
+  font-weight: bold;
+  font-size: 25px;
+
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+
+/*---Page COnnexionCompte ---*/
+.lienRetour {
+  font-size: 18px;
+}
+
+.demandeConnexion {
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.demandeConnexion p {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.demandeConnexion input {
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.connexionCompteBoutonConnexion {
+  width: 150px;
+  height: 40px;
+
+  margin: 2% 0;
+
+  font-weight: bold;
+}
+
+
+
+
+/*---Page AchatBillet---*/
+.Billets {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 5%;
+}
+
+
+.billetUnJour {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+
+  margin-right: 2%;
+}
+
+.billetUnJour_Titre {
+  text-align: center;
+  text-transform: uppercase;
+  color: #8b7212;
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding: 10px 0;
+}
+.billetUnJour_Titre h4 {
+  margin: inherit;
+}
+
+.billetUnJour_TarifAdulte, .billetUnJour_TarifEnfant, .billetUnJour_TarifBebe {
+  line-height: 1;
+  padding: 15px 0;
+  border-bottom: 1px solid #fff;
+
+  background-color: #005365;
+
+  color: #fff;
+  text-align: center;
+}
+
+#billetUnJour_TarifAdulte, #billetUnJour_TarifEnfant, #billetUnJour_TarifBebe {
+  font-size: 25px;
+}
+
+.billetUnJour_TarifAdulteDetail, .billetUnJour_TarifEnfantDetail {
+  display: flex;
+
+  justify-content: center;
+}
+.billetUnJour_TarifAdulteDetail p , .billetUnJour_TarifEnfantDetail p, .billetUnJour_TarifBebeGratuit p {
+  margin: inherit;
+}
+
+.billetUnJour_AncienTarifAdulte, .billetUnJour_AncienTarifEnfant {
+  font-size: 20px;
+  text-decoration: line-through;
+  font-weight: normal;
+
+  margin-top: 2px;
+}
+.billetUnJour_NouveauTarifAdulte, .billetUnJour_NouveauTarifEnfant, .billetUnJour_TarifBebeGratuit {
+    font-weight: bold;
+    font-size: 30px;
+
+    margin-left: 10px;
+}
+
+.billetUnJour_TarifBebeGratuit {
+  margin: inherit;
+}
+
+.billetDeuxJour {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+
+    margin-left: 2%;
+}
