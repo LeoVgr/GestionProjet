@@ -10,6 +10,8 @@
 .demandeConnexionAvantagesClients p {
   font-size: 30px;
   font-weight: bold;
+
+  color: #8b7212;
 }
 
 .demandeConnexionBoutonNon, .demandeConnexionBoutonSeConnecter {
@@ -17,16 +19,22 @@
   height: 300px;
 
   margin: 2.5%;
+  margin-bottom: 0;
 
   font-weight: bold;
   font-size: 25px;
 
-  background-color: lightgray;
+  background-color: #8b7212;
+  color : white;
+
   border-radius: 10px;
 }
+.lienInscription p {
+  margin-top: 10px;
+  margin-left: 52%;
+}
 
-
-/*---Page COnnexionCompte ---*/
+/*---Page ConnexionCompte ---*/
 .lienRetour {
   font-size: 18px;
 }
@@ -52,14 +60,19 @@
 }
 
 .connexionCompteBoutonConnexion {
-  width: 150px;
-  height: 40px;
-
-  margin: 2% 0;
-
+  margin : 3% 0;
+  width: 30%;
+  height: 35px;
+  border-radius: 15px;
+  background-color: #8b7212;
+  color : white;
+  font-size: 16px;
   font-weight: bold;
 }
 
+fieldset {
+  color: #8b7212;
+}
 
 
 
@@ -79,7 +92,7 @@
   background-color: #fff;
   box-shadow: rgba(0,0,0,0.3) 0 0 10px;
 
-  margin-right: 2%;
+  margin-right: 5%;
 }
 
 .billetUnJour_Titre {
@@ -126,10 +139,10 @@
   margin-top: 2px;
 }
 .billetUnJour_NouveauTarifAdulte, .billetUnJour_NouveauTarifEnfant, .billetUnJour_TarifBebeGratuit {
-    font-weight: bold;
-    font-size: 30px;
+  font-weight: bold;
+  font-size: 30px;
 
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .billetUnJour_TarifBebeGratuit {
@@ -143,5 +156,96 @@
   background-color: #fff;
   box-shadow: rgba(0,0,0,0.3) 0 0 10px;
 
-    margin-left: 2%;
+  margin-left: 2%;
+}
+
+.boutonValiderTicket {
+  background-color: #005365;
+}
+
+.validerTicket {
+  margin : 5% 10%;
+  width: 80%;
+  height: 35px;
+  border-radius: 15px;
+  background-color: #8b7212;
+  color : white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.billetUnJour_NonConnecteTarifAdulte, .billetUnJour_NonConnecteTarifEnfant {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+
+/*---Page RedirectionBanque---*/
+.Redirection {
+  margin-left: 35%;
+  margin-top: 8%;
+}
+.Redirection progress {
+  margin-left: 80px;
+}
+.Redirection h6 {
+  font-size: 20px;
+}
+
+/*---Page InscriptionClient---*/
+.InscriptionClient {
+  width: 70%;
+  margin : 8% 15%;
+
+  border: solid #8b7212 1px;
+  border-radius: 10px;
+
+  text-align: center;
+}
+
+.nomETprenomClient, .ageETvilleClient, .mailETtelClient {
+  display: flex;
+  flex-direction: row;
+
+  margin: 2% 0;
+}
+
+.nomClient, .prenomClient, .ageClient, .villeClient, .mailClient, .telClient {
+  display: flex;
+  flex-direction: row;
+}
+.InscriptionClient p {
+  margin: 0;
+  color: #8b7212;
+  font-weight: bold;
+}
+.nomClient, .ageClient, .mailClient {
+  margin-left: 6%;
+}
+.prenomClient {
+  margin-left: 30%;
+}
+.villeClient {
+  margin-left: 44.8%;
+}
+.telClient {
+  margin-left: 21.5%;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 25px;
+  color: #8b7212;
+}
+
+.validerCompte {
+  margin : 3% 35% 3% 35%;
+  width: 30%;
+  height: 35px;
+  border-radius: 15px;
+  background-color: #8b7212;
+  color : white;
+  font-size: 16px;
+  font-weight: bold;
 }
