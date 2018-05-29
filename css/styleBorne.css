@@ -204,34 +204,30 @@ fieldset {
   text-align: center;
 }
 
-.nomETprenomClient, .ageETvilleClient, .mailETtelClient {
+.Inscription {
   display: flex;
   flex-direction: row;
+}
 
-  margin: 2% 0;
+.nomETprenomClient, .ageETvilleClient, .mailETtelClient {
+  display: flex;
+  flex-direction: column;
+
+  margin: 2% 5.5%;
 }
 
 .nomClient, .prenomClient, .ageClient, .villeClient, .mailClient, .telClient {
   display: flex;
   flex-direction: row;
+
+  margin: 4% 0;
 }
 .InscriptionClient p {
   margin: 0;
   color: #8b7212;
   font-weight: bold;
 }
-.nomClient, .ageClient, .mailClient {
-  margin-left: 6%;
-}
-.prenomClient {
-  margin-left: 30%;
-}
-.villeClient {
-  margin-left: 44.8%;
-}
-.telClient {
-  margin-left: 21.5%;
-}
+
 
 h4 {
   font-weight: bold;
@@ -239,8 +235,12 @@ h4 {
   color: #8b7212;
 }
 
+.InscriptionClient h4 {
+  margin-bottom: 1%;
+}
+
 .validerCompte {
-  margin : 3% 35% 3% 35%;
+  margin : 1% 35% 3% 35%;
   width: 30%;
   height: 35px;
   border-radius: 15px;

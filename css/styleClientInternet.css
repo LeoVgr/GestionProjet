@@ -152,15 +152,16 @@ li a:active {
 }
 .billetUnJour_TarifAdulteDetail p , .billetUnJour_TarifEnfantDetail p, .billetUnJour_TarifBebeGratuit p {
   margin: inherit;
-  font-size: 20px;
+  font-size: 26px;
 }
 
-.billetUnJour_AncienTarifAdulte, .billetUnJour_AncienTarifEnfant {
-  font-size: 15px;
+.billetUnJour_AncienTarifAdulte p, .billetUnJour_AncienTarifEnfant p {
+  font-size: 16px;
   text-decoration: line-through;
   font-weight: normal;
 
-  margin-top: 2px;
+  margin-top: 4px;
+
 }
 .billetUnJour_NouveauTarifAdulte, .billetUnJour_NouveauTarifEnfant, .billetUnJour_TarifBebeGratuit {
   font-weight: bold;
@@ -211,4 +212,112 @@ li a:active {
 }
 .Redirection h6 {
   font-size: 20px;
+}
+
+
+
+
+
+/*---Page ConnexionCompte---*/
+.lienRetour {
+  font-size: 18px;
+  float: left;
+  margin-left: 3%;
+}
+
+.demandeConnexion {
+  width: 70%;
+  margin: auto;
+  margin-top: 3%;
+
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.demandeConnexion p {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.demandeConnexion input {
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.connexionCompteBoutonConnexion {
+  margin : 3% 0;
+  width: 30%;
+  height: 35px;
+  border-radius: 15px;
+  background-color: #8b7212;
+  color : white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+fieldset {
+  color: #8b7212;
+}
+
+
+
+
+
+
+/*---Page InscriptionClient---*/
+.InscriptionClient {
+  width: 70%;
+  margin : 8% 15%;
+
+  border: solid #8b7212 1px;
+  border-radius: 10px;
+
+  text-align: center;
+}
+
+.Inscription {
+  display: flex;
+  flex-direction: row;
+}
+
+.nomETprenomClient, .ageETvilleClient, .mailETtelClient {
+  display: flex;
+  flex-direction: column;
+
+  margin: 2% 5%;
+}
+
+.nomClient, .prenomClient, .ageClient, .villeClient, .mailClient, .telClient {
+  display: flex;
+  flex-direction: row;
+
+  margin: 4% 0;
+}
+.InscriptionClient p {
+  margin: 0;
+  color: #8b7212;
+  font-weight: bold;
+}
+
+
+.validerCompte {
+  margin : 1% 35% 3% 35%;
+  width: 30%;
+  height: 35px;
+  border-radius: 15px;
+  background-color: #8b7212;
+  color : white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.InscriptionClient h2 {
+  font-size: 25px;
+  font-weight: bold;
+
+  color: #8b7212;
+
+  margin: 2% 0 0 0;
+
 }
