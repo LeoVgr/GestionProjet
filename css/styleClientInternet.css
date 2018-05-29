@@ -105,7 +105,7 @@ li a:active {
   display: flex;
   justify-content: center;
 
-  margin-top: 5%;
+  margin-top: 4%;
 }
 
 .billetUnJour {
@@ -142,7 +142,7 @@ li a:active {
 }
 
 #billetUnJour_TarifAdulte, #billetUnJour_TarifEnfant, #billetUnJour_TarifBebe {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .billetUnJour_TarifAdulteDetail, .billetUnJour_TarifEnfantDetail {
@@ -320,4 +320,88 @@ fieldset {
 
   margin: 2% 0 0 0;
 
+}
+
+
+
+
+/*---Page ContactClient---*/
+.contact {
+    color: #8b7212;
+      font-size: 18px;
+}
+#textHaut {
+  color : #333333;
+
+}
+.infoContact {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+  margin: 4% 10%;
+}
+.nomETprenomContact, .emailETcommentContact {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+.emailETcommentContact label {
+  margin-top: 7px;
+}
+
+.comment textarea {
+  vertical-align: top;
+  width: 250px;
+}
+.email input {
+  width: 250px;
+}
+
+
+
+/*---Page FeuilleTarifClient---*/
+.feuilletarif {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+}
+
+.feuilletarif h5 {
+  font-size: 25px;
+  font-weight: bold;
+
+  color: #8b7212;
+
+  margin: 2% 0 5% 0;
+}
+
+.tarif_UnJour, .tarif_DeuxJour {
+  margin: 5% 7%;
+}
+
+.feuilletarif p {
+  margin : inherit;
+  margin-bottom: 5%;
+
+  font-size: 18px;
+  color: #333333;
+}
+
+.text_Tarif p {
+  margin: 2%;
+
+  font-size: 20px;
+  color: #333333;
+}
+
+#bold {
+  color: #8b7212;
+}
+
+.text_Tarif p:nth-child(1) {
+  font-weight: bold;
 }

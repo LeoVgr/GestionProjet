@@ -1,0 +1,93 @@
+<html lang="fr">
+
+<head>
+  <title>ParcAnimalier</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <link rel = "stylesheet" type="text/css" href="../css/styleClientInternet.css" />
+</head>
+
+<body>
+  <div class="AccueilClient">
+    <h1>ZooTopia</h1>
+    <h4>Le zoo de toutes les folies</h4>
+    <div class="PageInterneAccueilClient">
+      <div class="MenuClient">
+        <ul>
+          <li><a href="AccueilClient.html">Accueil</a></li>
+          <li><a href="#">Tarif</a></li>
+          <li><a href="AchatBilletEnLigne.html">Acheter mes billets</a></li>
+          <li style="float:right"><a href="#about">A propos</a></li>
+          <li style="float:right"><a href="#about">Mon compte</a></li>
+          <li style="float:right"><a href="#about">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="contact">
+
+        <div id="textHaut">
+          <p>Pour toutes informations sur nos offres, question sur le parc, sur les attractions. N'hésitez pas à nous contacter !</p>
+
+          <p>Pour nous contacter et avoir une réponse personnalisée, veuillez utiliser le formulaire ci-dessous.</p>
+        </div>
+
+        <p>
+          <label for="pays">Vous êtes : </label><br />
+          <select id="métier">
+            <option value="sélectionner"> -Sélectionner- </option>
+            <option value="particulier">Un particulier</option>
+            <option value="professionnel">Un professionnel</option>
+            <option value="association">Une association</option>
+            <option value="collectivité">Une collectivité</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="pays">Vous nous contacter pour : </label><br />
+          <select id="contacter">
+            <option value="sélectionner">-Sélectionner- </option>
+            <option value="tarif">Demander une documentation ou des tarifs</option>
+            <option value="devis">Demander un devis</option>
+            <option value="commanderInter">Des difficultés à commander sur internet</option>
+            <option value="visiteParc">Des difficultés de votre visite au Parc</option>
+            <option value="perteObjet">Signaler la perte d'un objet</option>
+            <option value="satisfaction">Manifester votre satisfaction</option>
+            <option value="autres">Autres</option>
+          </select>
+        </p>
+
+        <P>
+          <div class="infoContact">
+            <div class="nomETprenomContact">
+              <div class="nom">
+                <label>Votre nom :</label>
+                <input type="text" name="nom" placeholder="Ex : James"/>
+              </div>
+              <div class="prenom">
+                <label>Votre prénom :</label>
+                <input type="text" name="prenom" placeholder="Ex : Lebron"/>
+              </div>
+            </div>
+
+            <div class="emailETcommentContact">
+              <div class="email">
+                <label>Votre e-mail :</label>
+                <input type="text" name="e-mail" placeholder="Ex : lebron.james_23@gmail.com"/>
+              </div>
+              <div class="comment">
+                <label for="ameliorer">Votre commentaire :</label>
+                <textarea name="ameliorer" id="ameliorer" placeholder="Ex : Est-ce que les bars vendent de l'alcool ?" ></textarea>
+              </div>
+            </div>
+          </div>
+        </P>
+
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
