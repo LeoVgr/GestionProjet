@@ -509,3 +509,46 @@ ol.listeAchat {
 .historiqueAchatClient legend {
   font-size: 20px;
 }
+
+
+/*---Page DonneesPersonnellesClient---*/
+.nomC , .prenomC , .ageC , .villeC , .mailC , .telC {
+  display: flex;
+  flex-direction: row;
+}
+
+.InformationClient {
+  display: flex;
+  flex-direction: column;
+}
+.NomPrenomC, .AgeVilleC, .MailTelC {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  margin: 1.5% 20%;
+}
+
+.DonneesPersonnellesClient {
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+}
+.DonneesPersonnellesClient legend {
+  font-size: 20px;
+}
+
+.nomC p, .prenomC p, .ageC p, .villeC p, .mailC p, .telC p{
+  margin: 0;
+}
+
+
+.nomC  p:last-child, .ageC  p:last-child, .mailC  p:last-child, .prenomC p:last-child, .villeC p:last-child, .telC p:last-child {
+  border: solid #8b7212 1px;
+  border-radius: 5px;
+
+  padding: 3px;
+  color: #333333;
+
+  margin-left: 3px;
+}
