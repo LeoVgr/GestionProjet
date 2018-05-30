@@ -118,7 +118,21 @@ table {
 
 
 
+/*---Page d'accueil (index)---*/
+video {
+	width: 48%;
+	height: auto;
+	margin: 5% 0% 0% 3%;
+	display: inline-block;
+}
 
+img {
+	width: 20%;
+	height: auto;
+	margin-left: 3%;
+	display: inline-block;
+
+}
 
 
 
