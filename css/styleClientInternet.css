@@ -29,7 +29,7 @@
 	border-radius: 10px;
 }
 
-ul {
+.MenuClient ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -37,16 +37,16 @@ ul {
     background-color: #333333;
 }
 
-li {
+.MenuClient li {
     float: left;
     border-right:1px solid #bbb;
 }
 
-li:last-child {
+.MenuClient li:last-child {
     border-left:1px solid #bbb;
 }
 
-li a {
+.MenuClient li a {
     display: block;
     color: white;
     text-align: center;
@@ -54,9 +54,12 @@ li a {
     text-decoration: none;
 }
 
+.MenuClient li a:hover:not(.active) {
+    background-color: #404040;
+    color: white;
+}
 
-
-li a:active {
+.MenuClient li a:active {
   background-color: #8b7212;
 }
 
@@ -404,4 +407,105 @@ fieldset {
 
 .text_Tarif p:nth-child(1) {
   font-weight: bold;
+}
+
+
+
+
+
+
+/*---Page IndexCompteClient---*/
+.navIndexCompteClient ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #333333;
+}
+
+.navIndexCompteClient li a {
+    display: block;
+    color: white;
+    padding: 11px 20px;
+    text-decoration: none;
+
+    font-style: normal;
+    font-size: 14.5px;
+}
+
+.navIndexCompteClient li a.active {
+    background-color: #8b7212;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.navIndexCompteClient li a:hover:not(.active) {
+    background-color: #404040;
+    color: white;
+}
+
+.navIndexCompteClient {
+  display: flex;
+  justify-content: center;
+
+  margin: 3%;
+}
+.IndexCompteClient p {
+  margin-top: 3%;
+
+  font-size: 22px;
+  font-style: italic;
+}
+.lastElementNav a {
+  border-top: solid white 1px;
+}
+
+
+
+
+/*---Page MonProgrammeFidelite---*/
+.fideliteImg {
+  margin: 3%;
+}
+.pointActuelFidelite {
+  text-align: center;
+}
+.textFidelite {
+  font-size: 22px;
+  font-style: italic;
+}
+.scoreFidelite {
+  font-weight: bold;
+  border: solid #8b7212 2px;
+  border-radius: 10px;
+  padding: 1px;
+
+  width: 10%;
+  margin: auto;
+}
+.boutonLienRetour {
+  display: block;
+  clear: right;
+}
+
+
+
+/*---Page MonHistoriqueAchatClient---*/
+ol.listeAchat {
+    list-style-type: decimal;
+
+    text-align: left;
+    margin-left: 30%;
+}
+.listeAchat li {
+  padding-left: 5%;
+}
+.historiqueAchatClient {
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+}
+.historiqueAchatClient legend {
+  font-size: 20px;
 }
