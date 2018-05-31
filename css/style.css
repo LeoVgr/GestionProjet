@@ -128,14 +128,15 @@ table {
 	margin: 5%;
 	text-align: center;
 }
-video {
+
+.Presentation video {
 	width: 48%;
 	height: auto;
 	margin: 0% 0% 0% 3%;
 	display: inline-block;
 }
 
-img {
+.Presentation img {
 	width: 20%;
 	height: auto;
 	margin-left: 3%;
@@ -143,9 +144,6 @@ img {
 
 }
 
-.jyVais {
-
-}
 .jeVais {
 
 	margin : 5% 45%;
@@ -1203,9 +1201,25 @@ img {
 
 
 
+/*---Page A Propos---*/
 
+.APropos img {
+	margin: 2% 0% 2% 27%;
+	width: 45%;
+	height: auto;
 
+}
 
+.APropos h1 {
+	font-size: 25px;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.APropos p {
+	font-size: 15px;
+	text-align: center;
+}
 
 
 
