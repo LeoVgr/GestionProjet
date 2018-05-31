@@ -500,12 +500,14 @@ margin-bottom:2%;
 float:left;
 
 
+
 margin-bottom:2%;
 }
 #consultationPartieGauche{
 	float:left;
 	width:45%;
 	padding-left: 5%;
+	display: inline-grid;
 }
 #consultationPartieDroite{
 	float:right;
@@ -523,12 +525,21 @@ margin-bottom:2%;
 #clear{
 	clear: both;
 }
-#VoirFacture{
+.VoirFacture{
 	margin-left:40%;
 	margin-top:5%;
 	width:20%;
 	margin-bottom:5%;
 
+}
+.bold{
+	font-weight: bold;
+}
+#BoutonBasDePage{
+	margin-left:40%;
+	margin-top:5%;
+
+	margin-bottom:5%;
 }
 
 
@@ -581,13 +592,24 @@ margin-bottom:2%;
 	font-size: 22px;
 }
 
+.PartiesIntervention {
+	display: flex;
+	flex-direction: row;
+}
+
+.ConsultationBonDeIntervention {
+		display: flex;
+		flex-direction: column;
+}
+
 .InterventionBoutonContrat{
-	margin-left: 400px;
+	margin-left: 45%;
 }
 
 .InterventionBoutonEnregistrerDemandeIntervention {
 	margin : 6% 36.5% 3%;
 	text-align: center;
+	margin-left: 42%
 }
 
 .comment {
