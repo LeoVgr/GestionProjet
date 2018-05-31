@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>ParcAnimalier</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <link rel = "stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="PageInterne">
+
+    <header class="EnTete">
+      <h2> Secrétaire </h2>
+      <h4>Ajout d'un prestataire</h4>
+    </header>
+
+    <nav>
+      <ul class="nav">
+        <li><a href="Index.html">Accueil</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Tarifs</a></li>
+        <li><a href="ListeMetier.html">Personnel</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="AjoutFournisseurListe">
+      <div class="NomFournisseur">
+
+        <form>
+          <div class="AddFournPart1">
+            <p>
+              <label for="prenom">Nom de la société :</label>
+              <input type="text" name="prenom" placeholder="Ex : ReparToupie" size="30" maxlength="50" />
+            </p>
+
+            <p>
+              <label for="adresse">Adresse de la société :</label>
+              <input type="text" name="adresse" placeholder="Ex : 8 rue du Moulin" size="30" maxlength="100" />
+            </p>
+          </div>
+
+          <div class="AddFournPart2">
+            <p>
+              <label for="ville">Ville :</label>
+              <input type="text" name="ville" placeholder="Ex : Limoges" size="15" maxlength="50" />
+            </p>
+
+            <p>
+              <label for="cp">C.P :</label>
+              <input type="text" name="cp" placeholder="Ex : 87100" size="8" maxlength="50" />
+            </p>
+
+            <p>
+              <label for="pays">Pays :</label>
+              <input type="text" name="pays" placeholder="Ex : France" size="15" maxlength="50" />
+            </p>
+          </div>
+          <div class="AddFournPart3">
+            <p>
+              <label for="nom">Nom du prestataire :</label>
+              <input type="text" name="nom" placeholder="Ex : Ab Andon" size="20" maxlength="50" />
+            </p>
+
+            <p>
+              <label for="tel">Tél :</label>
+              <input type="text" name="tel" placeholder="Ex : 06 43 69 74 28" size="15" maxlength="50" />
+            </p>
+
+            <p>
+              <label for="email">Email :</label>
+              <input type="text" name="email" placeholder="Ex : ab.anbon@gmail.com" size="30" maxlength="50" />
+            </p>
+          </div>
+
+        </form>
+
+      </div>
+
+      <a href="ListePrestataire.html"><input class="PayeBoutonValider" type="button" value="Valider">
+
+      </div>
+
+
+    </div>
+  </body>
+  </html>
