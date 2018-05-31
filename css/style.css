@@ -1271,3 +1271,28 @@ table {
 .resultCaisse img {
 	width: 100%;
 }
+
+
+
+
+
+
+
+/*---Page FicheFournisseurDetail---*/
+.PageFournisseur {
+	width: 90%;
+	text-align: center;
+	justify-content: center;
+	margin : 5% 0 0 5%;
+}
+.DetailAddFournPart1 p label:last-child, .DetailAddFournPart2 p label:last-child, .DetailAddFournPart3 p label:last-child {
+	border: solid black 1px;
+	border-radius: 5px;
+
+	padding: 3px;
+
+}
+
+.DetailNomFournisseur p {
+	margin-top: 2%;
+}
