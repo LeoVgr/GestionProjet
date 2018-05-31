@@ -35,72 +35,74 @@
         <form>
           <div id="enteteIntervention">
             <p id="nomIntervention" >
-              <label  for="nom">Nom de l'intervention :</label>
-              <input type="text" name="nom" placeholder="Ex : Réparation du toboggan" size="40" maxlength="50" />
+              <label class="bold" for="nom">Nom de l'intervention :</label>
+              <input type="text" name="ref" placeholder="Réparation toboggan" size="20" maxlength="50" />
+
             </p>
 
             <p id="statusIntervention">
-              <label for="ref">Status de l'intervention :</label>
+              <label class="bold" for="ref">Status de l'intervention :</label>
               <input type="text" name="ref" placeholder="Terminée" size="10" maxlength="50" />
             </p>
 
           </div>
-
+          <div id="clear"></div>
           <hr color="black" size="1"></hr>
+          <div id="clear"></div>
           <div id="consultationPartieGauche">
             <p>
-              <label for="nom">Date de début d'intervention :</label>
+              <label class="bold" for="nom">Date de début d'intervention :</label>
               <input type="date" name="dateIntervention" value="2018-05-18">
             </p>
             <p>
-              <label for="nom">Date effective de début d'intervention :</label>
+              <label class="bold" for="nom">Date effective de début d'intervention :</label>
               <input type="date" name="dateIntervention" value="2018-05-18">
             </p>
 
             <p>
-              <label for="nom">Heure de l'intervention :</label>
+              <label class="bold" for="nom">Heure de l'intervention :</label>
               <input type="time" name="heureIntervention" value="15:30">
             </p>
 
             <p>
-              <label for="nom">Date effective de fin d'intervention :</label>
+              <label class="bold" for="nom">Date effective de fin d'intervention :</label>
               <input type="date" name="dateIntervention" value="2018-05-18">
             </p>
             <p>
-              <label for="nom">Durée de l'intervention:</label>
+              <label class="bold" for="nom">Durée de l'intervention:</label>
               <input type="text" name="ref" placeholder="12 jours" size="20" maxlength="50" />
             </p>
           </div>
 
           <div id="consultationPartieDroite">
             <p>
-              <label for="ref">Référence de la structure :</label>
+              <label class="bold" for="ref">Référence de la structure :</label>
               <input type="text" name="ref" placeholder="Ex : TOB56LG24" size="20" maxlength="50" />
             </p>
 
             <p>
-              <label for="ref">Intervenant :</label>
+              <label class="bold" for="ref">Intervenant :</label>
               <input type="text" name="ref" placeholder="Jean Aimare" size="30" maxlength="50" />
             </p>
 
 
 
 
-            <p>Intervention interne <INPUT type= "radio" name="contrat" value="oui">
-              Intervention externe<INPUT  type= "radio" name="contrat" value="non" checked></p>
+            <p>Intervention interne <INPUT class="bold" type= "radio" name="contrat" value="oui">
+              Intervention externe<INPUT class="bold" type= "radio" name="contrat" value="non" checked></p>
                 <p>
-                  <label class="comment" for="Commentaire">Commentaire (optionnel) :</label>
+                  <label class="bold" class="comment" for="Commentaire">Commentaire (optionnel) :</label>
                   <textarea name="Commentaire" id="Commentaire"></textarea>
                 </p>
                 <p id="signature">
-                  <label for="ref">Signature :</label>
+                  <label class="bold" for="ref">Signature :</label>
                   <img src="img\signature.png" alt="Signature">
                 </p>
           </div>
 
           <div id="clear"></div>
 
-              <input id="VoirFacture" type="button" value="Voir la facture">
+              <input class="bold" id="VoirFacture" type="button" value="Voir la facture">
             </form>
 
           </div>
