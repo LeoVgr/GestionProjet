@@ -63,6 +63,27 @@
   background-color: #8b7212;
 }
 
+.Presentation h3 {
+	font-style: italic;
+	font-size: 25px;
+	color: #8b7212;
+	margin: 5%;
+	text-align: center;
+}
+video {
+	width: 48%;
+	height: auto;
+	margin: 0% 1.5% 0% 1.5%;
+	display: inline-block;
+}
+
+img {
+	width: 20%;
+	height: auto;
+	margin: 0 1.5%;
+	display: inline-block;
+
+}
 
 
 
@@ -270,8 +291,8 @@ fieldset {
 
 /*---Page InscriptionClient---*/
 .InscriptionClient {
-  width: 70%;
-  margin : 8% 15%;
+  width: 80%;
+  margin : 8% 10%;
 
   border: solid #8b7212 1px;
   border-radius: 10px;
