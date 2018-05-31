@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>ParcAnimalier</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <link rel = "stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="PageInterne">
+
+    <header class="EnTete">
+      <h2> Chef de restauration </h2>
+      <h4>Statistiques : Chiffre d'affaires</h4>
+    </header>
+
+    <nav>
+      <ul class="nav">
+        <li><a href="Index.html">Accueil</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Tarifs</a></li>
+        <li><a href="ListeMetier.html">Personnel</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <form>
+      <div class="CritrereCA">
+        <div class="CritereRechercheCA">
+          <p> Critère de recherche :</p>
+
+          <div class="CritereRechercheSelectionCA">
+            <p>
+              <label for="nom">Résultat caisse Zone Nord :</label>
+              <input type="checkbox" name="checkbox1" value="checkbox" checked>
+            </p>
+
+            <p>
+              <label for="nom">Résultat caisse Zone Sud :</label>
+              <input type="checkbox" name="checkbox2" value="checkbox">
+            </p>
+          </div>
+
+        </div>
+
+        <div class="CritereAffichageCA">
+          <p> Critère d'affichage :</p>
+
+          <div class="CritereAffichageSelectionCA">
+            <div class="AffCA1">
+              <p>
+                <label for="nom">Ajourd'hui :</label>
+                <input type="checkbox" name="checkbox1" value="checkbox" checked>
+              </p>
+
+              <p>
+                <label for="nom">Du :</label>
+                <input type="date" name="dateIntervention" value="2018-05-12">
+                <input type="checkbox" name="checkbox2" value="checkbox">
+              </p>
+            </div>
+
+            <div class="AffCA2">
+              <p>
+                <label for="nom">De l'année en cours :</label>
+                <input type="checkbox" name="checkbox1" value="checkbox">
+              </p>
+
+              <p>
+                <label for="nom">De l'année :</label>
+                <input type="text" name="nom" placeholder="Ex : 2017" size="12" maxlength="6" />
+                <input type="checkbox" name="checkbox1" value="checkbox" >
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </form>
+
+    <div class="resultCaisse">
+      <img src="img/feuilleCaisseResto.gif" alt=""/>
+    </div>
+
+  </div>
+</body>
+</html>

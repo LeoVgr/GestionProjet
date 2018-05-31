@@ -1243,3 +1243,17 @@ img {
 .CouvertsIMG img {
 	width: 70%;
 }
+
+
+/*---Page FeuilleResultatCaisseResto---*/
+.resultCaisse {
+	width: 70%;
+	height: auto;
+
+	justify-content: center;
+	margin: 2% 15%;
+
+}
+.resultCaisse img {
+	width: 100%;
+}
