@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>ParcAnimalier</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <link rel = "stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="PageInterne">
+
+    <header class="EnTete">
+      <h2> Secrétaire </h2>
+      <h4>Mise en stock</h4>
+    </header>
+
+    <nav>
+      <ul class="nav">
+        <li><a href="Index.html">Accueil</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Tarifs</a></li>
+        <li><a href="ListeMetier.html">Personnel</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="RealisationCommandeFournisseur">
+      <div class="CommmandePartieGauche">
+        <form>
+
+          <div id="dateLivraison">
+            <p>
+              <label for="nom">Date de livraison :</label>
+              <input type="date" name="dateIntervention" value="2018-06-18">
+            </p>
+          </div>
+
+          <p>
+            <label for="nom">Fournisseur :</label>
+            <input type="text" name="nom" placeholder="Ex : Tip Top Animaux" size="20" maxlength="50" />
+            <a href="ListeFournisseur.html"><input class="CommandeBoutonListeFournisseur" type="button" value="Liste des fournisseurs"></a>
+          </p>
+
+          <p>
+            <label for="nom">Référence du produit :</label>
+            <input type="text" name="nom" placeholder="Ex : Croquettes rhinocéros" size="30" maxlength="50" />
+          </p>
+
+          <div id="CommandeQuantiteSouhaite">
+            <p>
+              <label for="nom">Quantité reçue :</label>
+              <input type="text" name="nom" placeholder="Ex : 500" size="8" maxlength="50" />
+            </p>
+
+            <select name="select2">
+              <option>Kilogramme</option>
+              <option>Litre</option>
+              <option>Unitaire</option>
+            </select>
+          </div>
+
+          <p>
+            <label class="comment" for="Commentaire">Commentaire (optionnel) :</label>
+            <textarea name="Commentaire" id="Commentaire"></textarea>
+          </p>
+        </form>
+
+        <a href="#"><input class="CommandeBoutonValiderProduit" type="button" value="Stocker ce produit"></a>
+
+      </div>
+
+      <div class="CommandePartieDroite">
+        <div class="ProduitValide">
+          <p> <span class="ListeProduitValide"> Liste des produits ajoutés au stock :  </span></p>
+
+          <ul>
+            <li>Os pour lion .................... 5 Unités</a></li>
+            <li>Couverture pour manchot.................... 5 Unités </a></li>
+            <li>Perruque pour autruche .................... 14 Unités</a></li>
+            <li>Brosse à dent pour éléphant .................... 12 Unités</a></li>
+            <li>Chausson pour baleine ....................25 Unités</a></li>
+          </ul>
+
+        </div>
+
+        <a href="ConsulterStock.html"><input class="CommandeBoutonEnregistrement" type="button" value="Stocker ces produits"></a>
+
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+</body>
+</html>

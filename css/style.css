@@ -1271,3 +1271,14 @@ table {
 .resultCaisse img {
 	width: 100%;
 }
+
+/*---Page FeuilleStockConsultation---*/
+#PartieBasStock {
+text-align: center;
+display:grid;
+margin-left:37%;
+}
+#PartieBasStock a{
+	float:left;
+	display:inline-flex;
+}
