@@ -927,7 +927,20 @@ table {
 
 
 
+/*---Facture---*/
+#Facture{
+	margin-left: 32%;
+	float:left;
 
+}
+#Facture p{
+display:grid;
+
+}
+#titreFactureBis{
+	font-size: 150%;
+	margin-left:20%;
+}
 
 
 
@@ -1300,20 +1313,7 @@ margin-left:37%;
 
 }
 
-/*---Facture---*/
-#Facture{
-	margin-left: 32%;
-	float:left;
 
-}
-#Facture p{
-display:grid;
-
-}
-#titreFactureBis{
-	font-size: 150%;
-	margin-left:20%;
-}
 
 
 
