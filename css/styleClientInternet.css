@@ -595,3 +595,20 @@ ol.listeAchat {
   font-size: 25px;
   font-style: italic;
 }
+
+
+
+
+/*---Page QuantiteAchatBillet---*/
+.QuantiteAchatBillet {
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+}
+.QuantiteAchatBillet p:last-child{
+  color: #333333;
+  border: solid #8b7212 1px;
+  padding: 5px;
+  width: 5%;
+  margin: auto;
+  border-radius: 10px;
+}
