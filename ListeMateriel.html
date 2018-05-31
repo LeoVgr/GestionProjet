@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>ParcAnimalier</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <link rel = "stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="PageInterne">
+
+    <header class="EnTete">
+      <h2> Espace réservé aux membres du personnel </h2>
+    </header>
+
+    <nav>
+      <ul class="nav">
+        <li><a href="Index.html">Accueil</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Tarifs</a></li>
+        <li><a href="ListeMetier.html">Personnel</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+
+    <div class="ListeFournisseur">
+      <h3>Liste des matériels</h3>
+
+      <form>
+        <div class="CritereRecherche">
+          <p> Critère de recherche :</p>
+
+          <div class="CritereRechercheSelection">
+            <p>
+              <label for="nom">Nom :</label>
+              <input type="text" name="nom" placeholder="Ex : Toboggan" size="20" maxlength="50" />
+            </p>
+
+
+            <p>
+              <label for="pays">Secteur d'activité :</label><br />
+              <select name="animaux" id="animaux">
+                <optgroup label="Attraction">
+                  <option value="Lion">Toboggan</option>
+                  <option value="Tigre">Toupis</option>
+                </optgroup>
+                <optgroup label="Enclos">
+                  <option value="Phoque">Barrière</option>
+                  <option value="Manchot">Toit</option>
+                </optgroup>
+              </select>
+            </p>
+
+          </div>
+
+        </div>
+      </form>
+
+      
+
+      <a href="AjoutMateriel.html"><input class="BoutonAjouterFournisseur" type="button" value="Ajouter un matériel">
+
+        <ul>
+          <li><a href="MaterielDetail.html">Toboggan</a></li>
+          <li><a href="MaterielDetail.html">Poignée enclos mouton</a></li>
+          <li><a href="MaterielDetail.html">Tondeuse</a></li>
+        </ul>
+
+
+      </div>
+
+
+    </div>
+  </body>
+  </html>
