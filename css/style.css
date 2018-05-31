@@ -1298,3 +1298,17 @@ margin-left:37%;
 	display:inline-flex;
 >>>>>>> 483796d4d81e5a8d41980093e1ff69efdd7a0a4d
 }
+
+/*---Facture---*/
+#Facture{
+	margin-left: 32%;
+	float:left;
+}
+#Facture p{
+display:grid;
+
+}
+#titreFactureBis{
+	font-size: 150%;
+	margin-left:20%;
+}
