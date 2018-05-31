@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>ParcAnimalier</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <link rel = "stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="PageInterne">
+
+    <header class="EnTete">
+      <h2> Secrétaire </h2>
+    </header>
+
+    <nav>
+      <ul class="nav">
+        <li><a href="Index.html">Accueil</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Tarifs</a></li>
+        <li><a href="ListeMetier.html">Personnel</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+
+    <div class="ListeFournisseur">
+      <h3>Liste des commandes</h3>
+
+      <form>
+        <div class="CritereRecherche">
+          <p> Critère de recherche :</p>
+
+          <div class="CritereRechercheSelection">
+            <p>
+              <label for="nom">Nom du fournisseur :</label>
+              <input type="text" name="nom" placeholder="Ex : Tip Top Animaux" size="20" maxlength="50" />
+            </p>
+
+            <p>
+              <label for="nom">Date de la commande :</label>
+              <input type="date" name="dateIntervention" value="2018-04-22">
+            </p>
+
+          </div>
+
+        </div>
+      </form>
+
+      <a href="RealisationCommandeFournisseur.html"><input class="BoutonAjouterFournisseur" type="button" value="Ajouter une commande">
+
+        <ul>
+          <li><a href="FicheCommandeDetail.html">Commande chez "ProResto" le 22/04/2018</a></li>
+          <li><a href="FicheCommandeDetail.html">Commande chez "Mood Sauce" le 11/03/2018</a></li>
+          <li><a href="FicheCommandeDetail.html">Commande chez "ProResto" le 05/02/2018</a></li>
+          <li><a href="FicheCommandeDetail.html">Commande chez "ProResto" le 23/01/2018</a></li>
+          <li><a href="FicheCommandeDetail.html">Commande chez "Mood Sauce" le 22/12/2017</a></li>
+        </ul>
+
+
+      </div>
+
+
+    </div>
+  </body>
+  </html>

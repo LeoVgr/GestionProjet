@@ -1175,3 +1175,14 @@ margin-bottom:2%;
 .contact input {
 	margin: 1% 25% 2% 25%;
 }
+
+
+
+/*---Page StatistiquesRestaurant---*/
+.CouvertsIMG {
+	width: 100%;
+	height: auto;
+
+	margin: auto;
+	margin-top: 5%;
+}

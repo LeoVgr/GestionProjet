@@ -11,10 +11,12 @@
 </head>
 
 <body>
+
   <div class="PageInterne">
 
     <header class="EnTete">
-      <h2> Espace réservé aux restaurateurs </h2>
+      <h2> Restaurateur </h2>
+      <h4>Gestion des commandes</h4>
     </header>
 
     <nav>
@@ -28,19 +30,24 @@
       </ul>
     </nav>
 
-    <div class="ConnexionPersonnel">
-      <h2>Connectez-vous à votre compte</h2>
+    <div class="RealisationFeuilleDePaie">
+      <div class="NomSalarie">
+        <form>
+          <p>
+            <label for="nom">Saisir le nom d'un fournisseur :</label>
+            <input type="text" name="nom" placeholder="Ex : ProResto" size="30" maxlength="50" />
+          </p>
+        </form>
 
-      <form action="ChoixRestaurateur.html">
-        Identifiant:<br>
-        <input type="text" name="Identifiant" value="2564MPKJHH1">
-        <br>
-        Mot de passe:<br>
-        <input type="text" name="mdp" value="********">
-        <br><br>
-        <input class="bouton" type="submit" value="Valider">
-      </form>
+        <p> ou </p>
+
+        <a href="ListeFournisseurResto.html"><input type="button" value="Sélectionner un fournisseur dans la liste">
+      </div>
+
+      <a href="RealisationCommandeFournisseur2.html"><input class="PayeBoutonValider" type="button" value="Valider">
+
     </div>
+
 
   </div>
 </body>
