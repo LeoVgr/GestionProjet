@@ -574,3 +574,24 @@ ol.listeAchat {
 
   margin-left: 3px;
 }
+
+
+
+
+/*---Page ProposCLient---*/
+.APropos {
+  width: 70%;
+  justify-content: center;
+  margin: 3% 15%;
+}
+.APropos img {
+  width: 40%;
+  height: auto;
+  border: solid #8b7212 4px;
+  border-radius: 15px;
+}
+.APropos h3 {
+  color: #8b7212;
+  font-size: 25px;
+  font-style: italic;
+}
