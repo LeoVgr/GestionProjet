@@ -927,7 +927,20 @@ table {
 
 
 
+/*---Facture---*/
+#Facture{
+	margin-left: 32%;
+	float:left;
 
+}
+#Facture p{
+display:grid;
+
+}
+#titreFactureBis{
+	font-size: 150%;
+	margin-left:20%;
+}
 
 
 
@@ -1292,21 +1305,13 @@ table {
 text-align: center;
 display:grid;
 margin-left:37%;
+
 }
 #PartieBasStock a{
 	float:left;
 	display:inline-flex;
 }
 
-/*---Facture---*/
-#Facture{
-	margin-left: 32%;
-	float:left;
-}
-#Facture p{
-display:grid;
-
-}
 #titreFactureBis{
 	font-size: 150%;
 	margin-left:20%;
