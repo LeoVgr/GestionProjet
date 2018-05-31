@@ -128,14 +128,14 @@ table {
 	margin: 5%;
 	text-align: center;
 }
-video {
+.Presentation video {
 	width: 48%;
 	height: auto;
 	margin: 0% 0% 0% 3%;
 	display: inline-block;
 }
 
-img {
+.Presentation img {
 	width: 20%;
 	height: auto;
 	margin-left: 3%;
@@ -143,9 +143,6 @@ img {
 
 }
 
-.jyVais {
-
-}
 .jeVais {
 
 	margin : 5% 45%;
@@ -1178,6 +1175,7 @@ margin-bottom:2%;
 
 
 
+<<<<<<< HEAD
 /*---Page StatistiquesRestaurant---*/
 .CouvertsIMG {
 	width: 100%;
@@ -1185,4 +1183,25 @@ margin-bottom:2%;
 
 	margin: auto;
 	margin-top: 5%;
+=======
+
+
+
+/*---Page A propos---*/
+
+.APropos img {
+	margin: 3% 0% 2% 35%;
+}
+
+.APropos h1 {
+	font-size: 25px;
+	font-style: bold;
+	text-align: center;
+	margin: 0% 0% 2% 0%;
+}
+
+.APropos p {
+	font-size: 15px;
+	text-align: center;
+>>>>>>> 1802c53cf631f42b341fdf0ec3c35bcecb8772ff
 }
